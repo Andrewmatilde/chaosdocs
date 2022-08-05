@@ -50,7 +50,7 @@ var serverSUB string
 func main() {
 	rootCmd := cmd.GetRootCMD()
 	atkCmds := rootCmd.Commands()[0].Commands()
-	clocks := atkCmds[11] //.Commands()[0]
+	clocks := atkCmds[4] //.Commands()[0]
 	ac := attack.GetAttack(clocks)
 	var buffer bytes.Buffer
 	attack.ParseAtk(&buffer, "title", title, ac)
@@ -83,15 +83,4 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//fmt.Println(GetAttack(clocks))
-	//fmt.Println(clocks.Short)
-	//fmt.Println(clocks.UsageString())
-	//flagSet := *clocks.Flags()
-	//var flags []pflag.Flag
-	//flagSet.VisitAll(func(f *pflag.Flag) {
-	//	if f.Name != "log-level" && f.Name != "uid" {
-	//		flags = append(flags, *f)
-	//	}
-	//})
-	//fmt.Println(flags)
 }
