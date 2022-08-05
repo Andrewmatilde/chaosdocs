@@ -1,0 +1,9 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  dir-name:
+    dsp: the name of directory to be created
+    must: false
+  file-name:
+    dsp: the name of file to be created
+    must: false

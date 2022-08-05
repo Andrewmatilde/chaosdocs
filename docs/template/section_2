@@ -1,0 +1,12 @@
+### 使用命令行模式模拟{{ .TypePlain }}
+
+本节介绍如何在命令行模式中模拟{{ .TypePlain }}。
+
+在模拟{{ .TypePlain }}前，可运行以下命令行查看模拟{{ .TypePlain }}的相关配置项：
+```bash
+{{.HelpCommand}}
+```
+输出结果如下所示：
+```bash
+{{.Usage}}
+```

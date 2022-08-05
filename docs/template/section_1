@@ -1,0 +1,13 @@
+### 使用命令行模式创建实验
+
+在创建{{ .TypePlain }}实验前，可运行以下命令行查看 `Chaosd` 支持的{{ .TypePlain }}类型
+```bash
+{{.HelpCommand}}
+```
+输出结果如下所示：
+```bash
+{{.Usage}}
+```
+{{ if eq (len .SubCmd) 0 }}{{ else }}
+目前 Chaosd 支持模拟{{ .TypePlain }}类型{{ range $item := .SubCmd  }} `{{.Name}}` {{ end }}.
+{{ end }}

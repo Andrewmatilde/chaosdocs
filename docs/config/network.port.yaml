@@ -1,0 +1,6 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  port:
+    dsp: this specified port is to occupied
+    must: false

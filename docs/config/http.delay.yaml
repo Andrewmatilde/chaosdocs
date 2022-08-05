@@ -1,0 +1,24 @@
+type_title: HTTP时延
+type_plain: HTTP时延
+flag_dsp_map:
+  code:
+    dsp: 代码是通过http状态码响应选择目标的规则。
+    must: false
+  delay time:
+    dsp: 延迟表示目标请求/响应的延迟。
+    must: true
+  method:
+    dsp: HTTP 方法
+    must: false
+  path:
+    dsp: Uri 的匹配路径基于通配符匹配。
+    must: false
+  port:
+    dsp: 目标服务侦听的 TCP 端口。
+    must: false
+  proxy-ports:
+    dsp: 由 HTTP 连接的端口之一组成，我们只会使用 proxy_ports 内的端口来攻击 HTTP 连接
+    must: true
+  target:
+    dsp: 'HTTP 目标: Request or Response'
+    must: true

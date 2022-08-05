@@ -1,0 +1,24 @@
+type_title: Kafka填充故障
+type_plain: Kafka填充故障
+flag_dsp_map:
+  host:
+    dsp: kafka服务器的主机地址
+    must: false
+  max-bytes:
+    dsp: 要填充的最大字节数
+    must: false
+  password:
+    dsp: kafka 客户端密码
+    must: false
+  port:
+    dsp: kafka 服务端口
+    must: false
+  reload-cmd:
+    dsp: kafka 重启恢复的配置命令
+    must: false
+  size:
+    dsp: 每个传输包的大小
+    must: false
+  username:
+    dsp: kafka 客户端用户名
+    must: false

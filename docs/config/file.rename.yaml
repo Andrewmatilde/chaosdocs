@@ -1,0 +1,9 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  dest-file:
+    dsp: the destination file/dir of rename
+    must: false
+  source-file:
+    dsp: the source file/dir of rename
+    must: false

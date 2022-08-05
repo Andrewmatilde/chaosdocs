@@ -1,0 +1,12 @@
+type_title: HTTP请求
+type_plain: HTTP请求
+flag_dsp_map:
+  count:
+    dsp: 请求数量
+    must: false
+  enable-conn-pool:
+    dsp: 连接池是否开启
+    must: false
+  url:
+    dsp: 发送目标
+    must: true

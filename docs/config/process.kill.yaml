@@ -1,0 +1,12 @@
+type_title: 进程终止
+type_plain: 进程终止
+flag_dsp_map:
+  process:
+    dsp: The process name or the process ID
+    must: false
+  recover-cmd:
+    dsp: The command to be run when recovering experiment
+    must: false
+  signal:
+    dsp: The signal number to send
+    must: false

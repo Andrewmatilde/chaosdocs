@@ -1,0 +1,28 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  buffer:
+    dsp: the maximum amount of bytes that tokens can be available for instantaneously
+    must: false
+  device:
+    dsp: the network interface to impact
+    must: false
+  hostname:
+    dsp: only impact traffic to these hostnames
+    must: false
+  ip:
+    dsp: only impact egress traffic to these IP addresses
+    must: false
+  limit:
+    dsp: the number of bytes that can be queued waiting for tokens to become available
+    must: false
+  minburst:
+    dsp: specifies the size of the peakrate bucket
+    must: false
+  peakrate:
+    dsp: the maximum depletion rate of the bucket
+    must: false
+  rate:
+    dsp: the speed knob, allows bps, kbps, mbps, gbps, tbps unit. bps means bytes
+      per second
+    must: false

@@ -1,0 +1,15 @@
+type_title: ""
+type_plain: ""
+work_base_on: ""
+flag_dsp_map:
+  clock-ids-slice:
+    dsp: The identifier of the particular clock on which to act.More clock description
+      in linux kernel can be found in man page of clock_getres, clock_gettime, clock_settime.Muti
+      clock ids should be split with ","
+    must: false
+  pid:
+    dsp: Pid of target program.
+    must: false
+  time-offset:
+    dsp: Specifies the length of time offset.
+    must: false

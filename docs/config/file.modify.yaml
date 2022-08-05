@@ -1,0 +1,9 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  file-name:
+    dsp: file to be change privilege
+    must: false
+  privilege:
+    dsp: privilege to be update
+    must: false

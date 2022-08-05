@@ -1,0 +1,12 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  addr:
+    dsp: The address of redis server
+    must: false
+  password:
+    dsp: The password of server
+    must: false
+  request-num:
+    dsp: The number of requests
+    must: false

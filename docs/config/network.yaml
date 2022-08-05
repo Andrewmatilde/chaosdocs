@@ -1,0 +1,4 @@
+type_title: 网络故障
+type_plain: 网络故障
+work_base_on: ' iptables、ipsets、tc 等工具修改网络路由、流量控制'
+flag_dsp_map: {}

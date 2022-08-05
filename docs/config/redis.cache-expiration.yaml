@@ -1,0 +1,19 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  addr:
+    dsp: The address of redis server
+    must: false
+  expiration:
+    dsp: The expiration of the key. A expiration string should be able to be converted
+      to a time duration, such as "5s" or "30m"
+    must: false
+  key:
+    dsp: The key to be set a expiration, default expire all keys
+    must: false
+  option:
+    dsp: The additional options of expiration, only NX, XX, GT, LT supported
+    must: false
+  password:
+    dsp: The password of server
+    must: false

@@ -1,0 +1,12 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  count:
+    dsp: append count with default value is 1
+    must: false
+  data:
+    dsp: append data
+    must: false
+  file-name:
+    dsp: append data to the file
+    must: false

@@ -1,0 +1,31 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  correlation:
+    dsp: correlation is percentage (10 is 10%)
+    must: false
+  device:
+    dsp: the network interface to impact
+    must: false
+  egress-port:
+    dsp: only impact egress traffic to these destination ports, use a ',' to separate
+      or to indicate the range, such as 80, 8001:8010. It can only be used in conjunction
+      with -p tcp or -p udp
+    must: false
+  hostname:
+    dsp: only impact traffic to these hostnames
+    must: false
+  ip:
+    dsp: only impact egress traffic to these IP addresses
+    must: false
+  percent:
+    dsp: percentage of packets to drop (10 is 10%)
+    must: false
+  protocol:
+    dsp: 'only impact traffic using this IP protocol, supported: tcp, udp, icmp, all'
+    must: false
+  source-port:
+    dsp: only impact egress traffic from these source ports, use a ',' to separate
+      or to indicate the range, such as 80, 8001:8010. It can only be used in conjunction
+      with -p tcp or -p udp
+    must: false

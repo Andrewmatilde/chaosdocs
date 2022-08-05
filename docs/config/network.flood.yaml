@@ -1,0 +1,18 @@
+type_title: 网络泛洪
+type_plain: 网络泛洪
+flag_dsp_map:
+  duration:
+    dsp: 运行 iperf 测试的秒数
+    must: false
+  ip:
+    dsp: 影响到指定的 IP 地址
+    must: true
+  parallel:
+    dsp: 要运行的 iperf 并行客户端线程数
+    must: false
+  port:
+    dsp: 在 IP 地址上生成到此端口的流量
+    must: true
+  rate:
+    dsp: 网络流量的速度，允许 bps, kbps, mbps, gbps, tbps 单位.
+    must: true

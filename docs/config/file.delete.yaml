@@ -1,0 +1,9 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  dir-name:
+    dsp: the directory to be deleted
+    must: false
+  file-name:
+    dsp: the file to be deleted
+    must: false

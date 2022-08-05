@@ -1,0 +1,18 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  addr:
+    dsp: The address of redis server
+    must: false
+  conf:
+    dsp: The config of Redis server
+    must: false
+  flush-config:
+    dsp: ' Force Sentinel to rewrite its configuration on disk'
+    must: false
+  password:
+    dsp: The password of server
+    must: false
+  redis-path:
+    dsp: The path of the redis-server command
+    must: false

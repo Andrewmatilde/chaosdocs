@@ -1,0 +1,7 @@
+type_title: 虚拟机故障
+type_plain: 虚拟机故障
+work_base_on: 虚拟机服务提供的相关`API`
+flag_dsp_map:
+  vm-name:
+    dsp: 需要摧毁的虚拟机名称
+    must: true

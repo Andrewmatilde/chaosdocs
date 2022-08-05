@@ -1,0 +1,17 @@
+#### 使用命令行模式模拟{{ .TypeTitle }}
+
+通过运行{{ .TypeTitle }}命令，查看模拟{{ .TypeTitle }}场景支持的配置。
+
+##### 模拟{{ .TypePlain }}命令
+
+具体命令如下所示：
+
+```bash
+{{ .HelpCommand }}
+```
+
+输出结果如下所示：
+
+```bash
+{{ .Usage }}
+```

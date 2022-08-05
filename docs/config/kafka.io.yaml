@@ -1,0 +1,12 @@
+type_title: Kafka IO故障
+type_plain: Kafka IO故障
+flag_dsp_map:
+  config:
+    dsp: 服务配置文件地址
+    must: true
+  non-readable:
+    dsp: 使得kafka服务不可读
+    must: false
+  non-writable:
+    dsp: 使得kafka服务不可写
+    must: false

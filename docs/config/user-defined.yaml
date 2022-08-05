@@ -1,0 +1,10 @@
+type_title: 自定义故障
+type_plain: 自定义故障
+work_base_on: 用户自定义脚本
+flag_dsp_map:
+  attack-cmd:
+    dsp: 攻击命令
+    must: true
+  recover-cmd:
+    dsp: 恢复命令
+    must: true

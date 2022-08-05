@@ -1,0 +1,10 @@
+type_title: 网卡关闭
+type_plain: 网卡关闭
+flag_dsp_map:
+  device:
+    dsp: 影响的网卡设备名称
+    must: true
+  duration:
+    dsp: 网卡关闭的时间, 必须设置一个单位, 如 "300ms", "1.5h" , "2h45m".有效单位:"ns","us" (or "µs"),
+      "ms", "s", "m", "h".
+    must: true

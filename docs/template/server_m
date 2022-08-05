@@ -1,0 +1,31 @@
+### 使用服务模式创建实验
+要使用服务模式创建实验，请进行以下操作：
+
+1. 以服务模式运行 chaosd。
+
+   ```bash
+   chaosd server --port 31767
+   ```
+
+2. 向 Chaosd 服务的路径 {{ .Path }} 发送 `POST` HTTP 请求。
+
+   ```bash
+   curl -X POST 172.16.112.130:31767{{ .Path }} -H "Content-Type:application/json" -d '{fault-configuration}'
+   ```
+
+在上述命令中，你需要按照故障类型在 `fault-configuration` 中进行配置。有关对应的配置参数，请参考下文中各个类型故障的相关参数说明和命令示例。
+
+注意
+
+在运行实验时，请注意保存实验的 UID 信息。当要结束 UID 对应的实验时，需要向 Chaosd 服务的路径 /api/attack/{uid} 发送 `DELETE` HTTP 请求。
+
+{{ if eq (len .Flags) 0}}
+{{ else }}
+#### 模拟{{ .TypePlain }}通用参数说明
+
+相关配置说明如下所示：
+
+| 配置项 | 类型 | 默认值 | 说明 | 必须参数 |
+| --- | --- | --- | ------------ | --- |{{ range .Flags }}
+| {{ .Name }} | `{{ .Type }}` | `{{ .Default }}` | {{ .Description }} | {{ .Must }} |{{ end }}
+{{ end }}

@@ -1,0 +1,15 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  dest-string:
+    dsp: the destination string to replace the origin string
+    must: false
+  file-name:
+    dsp: replace data in the file
+    must: false
+  line:
+    dsp: the line number to replace, default is 0, means replace all lines
+    must: false
+  origin-string:
+    dsp: the origin string to be replaced
+    must: false

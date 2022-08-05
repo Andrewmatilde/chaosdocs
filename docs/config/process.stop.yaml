@@ -1,0 +1,6 @@
+type_title: 进程暂停
+type_plain: 进程暂停
+flag_dsp_map:
+  process:
+    dsp: The process name or the process ID
+    must: false

@@ -1,0 +1,6 @@
+type_title: HTTP故障配置
+type_plain: HTTP故障配置
+flag_dsp_map:
+  file path:
+    dsp: 配置文件路径.
+    must: true

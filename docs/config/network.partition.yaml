@@ -1,0 +1,25 @@
+type_title: ""
+type_plain: ""
+flag_dsp_map:
+  accept-tcp-flags:
+    dsp: only the packet which match the tcp flag can be accepted, others will be
+      dropped. only set when the protocol is tcp.
+    must: false
+  device:
+    dsp: the network interface to impact
+    must: false
+  direction:
+    dsp: specifies the partition direction, values can be 'to', 'from' or 'both'.
+      'from' means packets coming from the 'IPAddress' or 'Hostname' and going to
+      your server, 'to' means packets originating from your server and going to the
+      'IPAddress' or 'Hostname'.
+    must: false
+  hostname:
+    dsp: only impact traffic to these hostnames
+    must: false
+  ip:
+    dsp: only impact egress traffic to these IP addresses
+    must: false
+  protocol:
+    dsp: 'only impact traffic using this IP protocol, supported: tcp, udp, icmp, all'
+    must: false

@@ -1,0 +1,7 @@
+type_title: Kafka故障
+type_plain: Kafka故障
+work_base_on: go Kafka相关工具
+flag_dsp_map:
+  topic:
+    dsp: 攻击对象
+    must: true
